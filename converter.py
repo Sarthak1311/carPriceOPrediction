@@ -2,8 +2,8 @@ import json
 import os
 from PIL import Image
 
-# ==== CONFIG ====
-# Class mapping (order is important)
+
+# Class mapping 
 class_map = {
     "scratch": 0,
     "dent": 1,
@@ -17,7 +17,7 @@ json_dir = "/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/c
 labels_out_dir = "/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/all"    # folder to save YOLO labels
 os.makedirs(labels_out_dir, exist_ok=True)
 
-# ==== CONVERSION LOOP ====
+
 for json_file in os.listdir(json_dir):
     if not json_file.endswith(".json"):
         continue
@@ -37,7 +37,7 @@ for json_file in os.listdir(json_dir):
             break
 
     if image_path is None:
-        print(f"⚠️ Image for {json_file} not found. Skipping.")
+        print(f"Image for {json_file} not found. Skipping.")
         continue
 
     # Open image to get width/height
@@ -48,7 +48,7 @@ for json_file in os.listdir(json_dir):
     for shape in data["shapes"]:
         label_name = shape["label"].lower().strip()
         if label_name not in class_map:
-            print(f"⚠️ Unknown label '{label_name}' in {json_file}, skipping.")
+            print(f" Unknown label '{label_name}' in {json_file}, skipping.")
             continue
 
         points = shape["points"]
