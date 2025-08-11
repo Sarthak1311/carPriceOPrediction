@@ -1,24 +1,3 @@
-# import selenium
-# from selenium import webdriver
-# from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.common.by import By
-# import time
-
-
-# driver = webdriver.Chrome()
-# url = "https://www.flipkart.com/search?q=phone&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
-# driver.get(url)
-# elements = driver.find_elements(By.CLASS_NAME,'KzDlHZ')
-# driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-# print(f"{len(elements)} elements found")
-# for element in elements:
-#     print(element.text)
-
-
-# time.sleep(15) 
-# driver.close()
-
 import selenium
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -27,7 +6,7 @@ from selenium.webdriver.common.by import By
 import time 
 
 driver  = webdriver.Chrome()
-url = "https://www.cars24.com/buy-used-petrol-cars-new-delhi/?sort=bestmatch&serveWarrantyCount=true&storeCityId=2"
+url = "https://www.cars24.com/buy-used-hybrid-cars-new-delhi/?sort=bestmatch&serveWarrantyCount=true&listingSource=TabFilter&storeCityId=2"
 driver.get(url)
 scroll_pause_time = 0.1  # seconds
 scroll_height = driver.execute_script("return document.body.scrollHeight")
@@ -95,7 +74,7 @@ df= pd.DataFrame({
     "transmission": transmission,
     "RTO":RTo
 })
-df.to_csv("car_data.csv",index=False)
+df.to_csv("car_data4.csv",index=False)
 
 
 
