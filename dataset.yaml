@@ -1,6 +1,5 @@
-train: /Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/image/train
-val: /Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/image/val
-test: /Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/image/test
-
-nc: 4
-names: ['scratch', 'dent', 'no damage', 'paint damage']
+path: /Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore
+train: /Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/images/train
+val: /Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/images/val
+nc: 3
+names: ['scratch', 'dent', 'paint_damage']
