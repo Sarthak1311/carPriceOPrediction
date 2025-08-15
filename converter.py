@@ -7,13 +7,12 @@ from PIL import Image
 class_map = {
     "scratch": 0,
     "dent": 1,
-    "no damage": 2,
-    "paint damage": 3
+    "paint_damage": 2
 }
 
 # Paths
 images_dir = "/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/allImage"
-json_dir = "/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/alljson"
+json_dir = "/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/json_file"
 labels_out_dir = "/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/all"    # folder to save YOLO labels
 os.makedirs(labels_out_dir, exist_ok=True)
 
