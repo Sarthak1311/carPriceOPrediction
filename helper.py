@@ -1,8 +1,4 @@
 # Python function to automatically create data.yaml config file
-# 1. Reads "classes.txt" file to get list of class names
-# 2. Creates data dictionary with correct paths to folders, number of classes, and names of classes
-# 3. Writes data in YAML format to data.yaml
-
 import yaml
 import os
 
@@ -35,7 +31,7 @@ def create_data_yaml(path_to_classes_txt, path_to_data_yaml):
 
   return
 
-# Define path to classes.txt and run function
+
 path_to_classes_txt = '/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/classes.txt'
 path_to_data_yaml = '/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/dataset.yaml'
 
