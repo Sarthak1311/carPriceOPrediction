@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+ 
 # Distribution / packaging
 .Python
 build/
@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+data
+
+my_model.pt
+yolo11s.pt 
+yolov8n-seg.pt 
+yolov8n.pt 
+yolov8s.pt 
+carDamageScore
