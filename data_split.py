@@ -10,7 +10,7 @@ image_path = "/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction
 splits = ['train', 'val', 'test']
 for s in splits:
     os.makedirs(f"/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/image/{s}", exist_ok=True)
-    os.makedirs(f"/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/label/{s}", exist_ok=True)
+    os.makedirs(f"/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/labels/{s}", exist_ok=True)
 
 # Split ratio
 train_ratio = 0.7
@@ -35,7 +35,7 @@ def moving_files(files, split):
         label_file = os.path.splitext(f)[0] + ".txt"
         if os.path.exists(os.path.join(labels_path, label_file)):
             shutil.copy(os.path.join(labels_path, label_file),
-                        f"/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/label/{split}/{label_file}")
+                        f"/Users/sarthaktyagi/Desktop/30days-3oprojects/car_price_prediction/carDamageScore/labels/{split}/{label_file}")
 
 moving_files(train_files, "train")
 moving_files(val_files, "val")
