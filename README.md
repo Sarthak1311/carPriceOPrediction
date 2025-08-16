@@ -73,4 +73,4 @@ This score can be further used for **car price prediction** or insurance-related
 ## Author
 ***Sarthak Tyagi***
 - Machine Learning Engineer | Computer Vision Enthusiast
-- [LinkedIn](www.linkedin.com/in/sarthak-tyagi-a18812226)
+- [LinkedIn]([www.linkedin.com/in/sarthak-tyagi-a18812226](https://www.linkedin.com/in/sarthak-tyagi-a18812226/))
