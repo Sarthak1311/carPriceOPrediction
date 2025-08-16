@@ -68,7 +68,7 @@ This score can be further used for **car price prediction** or insurance-related
 
 ### ***DEMO***
 [video for detection](https://www.linkedin.com/posts/sarthak-tyagi-a18812226_machinelearning-yolo-computervision-activity-7361832762640617474-uKed?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi3pDQBy3-nsVgSm0LYdQdC_W0qjLWiwoo)
-[Scoring those detection)[https://www.linkedin.com/posts/sarthak-tyagi-a18812226_machinelearning-yolo-computervision-activity-7361835658560069633-DCAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi3pDQBy3-nsVgSm0LYdQdC_W0qjLWiwoo]
+[Scoring those detection](https://www.linkedin.com/posts/sarthak-tyagi-a18812226_machinelearning-yolo-computervision-activity-7361835658560069633-DCAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi3pDQBy3-nsVgSm0LYdQdC_W0qjLWiwoo)
 
 ## Author
 ***Sarthak Tyagi***
