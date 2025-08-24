@@ -99,7 +99,7 @@ The final output is a realistic car resale value displayed on the UI.
 - []()
 - [video for detection](https://www.linkedin.com/posts/sarthak-tyagi-a18812226_machinelearning-yolo-computervision-activity-7361832762640617474-uKed?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi3pDQBy3-nsVgSm0LYdQdC_W0qjLWiwoo)
 - [Scoring those detection](https://www.linkedin.com/posts/sarthak-tyagi-a18812226_machinelearning-yolo-computervision-activity-7361835658560069633-DCAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi3pDQBy3-nsVgSm0LYdQdC_W0qjLWiwoo)
--[the complete project](https://www.linkedin.com/posts/sarthak-tyagi-a18812226_machinelearning-computervision-deeplearning-ugcPost-7365096350364925953-m6in?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi3pDQBy3-nsVgSm0LYdQdC_W0qjLWiwoo)
+- [the complete project](https://www.linkedin.com/posts/sarthak-tyagi-a18812226_machinelearning-computervision-deeplearning-ugcPost-7365096350364925953-m6in?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi3pDQBy3-nsVgSm0LYdQdC_W0qjLWiwoo)
 
 ## Author
 ***Sarthak Tyagi***
